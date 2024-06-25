@@ -13,6 +13,10 @@
     ./build.sh
     keyspaces-demo
 
+# Source
+
+Example from: https://github.com/aws/aws-sigv4-auth-cassandra-gocql-driver-plugin
+
 ## gocql auth plugin
 
 https://github.com/aws/aws-sigv4-auth-cassandra-gocql-driver-plugin
@@ -26,3 +30,5 @@ Amazon Keyspaces requires the use of Transport Layer Security (TLS) to help secu
 Download the Starfield digital certificate using the following command and save sf-class2-root.crt locally or in your home directory.
 
     curl https://certs.secureserver.net/repository/sf-class2-root.crt
+
+    curl https://www.amazontrust.com/repository/AmazonRootCA1.pem
