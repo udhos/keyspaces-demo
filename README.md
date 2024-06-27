@@ -13,6 +13,16 @@
     ./build.sh
     keyspaces-demo
 
+# Usage example
+
+    INSERT_LIMIT=1000000 INSERT_DURATION=30s INSERT_CONCURRENCY=30 keyspaces-demo
+
+# Benchmark
+
+It took 37 seconds to fetch 113k records.
+
+    2024/06/26 23:56:43 query3: printQuery: rows=113880 elapsed=37.332884927s
+
 # Source
 
 Example from: https://github.com/aws/aws-sigv4-auth-cassandra-gocql-driver-plugin

@@ -5,6 +5,7 @@ go 1.22.4
 require (
 	github.com/aws/aws-sigv4-auth-cassandra-gocql-driver-plugin v1.1.0
 	github.com/gocql/gocql v1.6.0
+	github.com/segmentio/ksuid v1.0.4
 )
 
 require (
